@@ -1,0 +1,31 @@
+##1.Write a Python program to check if a given number is positive, negative, or zero:
+
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+**************************************
+##2.	Create a program that takes a user's age as input and outputs whether they are eligible to vote or not (considering the legal voting age is 18).
+age = int(input('Please enter a persons age.'))
+if age > 18:
+  print('The person is eligible to vote.')
+elif age <18:
+  print('The person is not eligible to vote.')
+**************************************
+##5.Create a Python program to find the largest among three numbers entered by the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+
+print("The largest number is", largest)
+****************************************
